@@ -12,9 +12,9 @@
 3. 制作 servlet-demo01.war
 
    1. 添加tomcat类库依赖，以至于编译当前`servlet-demo01`不至于报错，选择`Modules`->`servlet-demo01`->`Dependencies +`->`2 Library`->`Application Server Libraries`->`选择一个tomcat`
-   2. 制作 artifacts，别且设置输出路径到源码下/home/webapps
+   2. 制作 artifacts，别且设置输出路径到源码下/home/webapps(直接一步到位，省去复制的步骤)
       
-      ![](./asserts/artifact-01.png)
+      ![](./.asserts/artifact-01.png)
    
    3. idea主菜单`Build -> Build Artifacts -> Build` 执行后可以看到`apache-tomcat-8.5.35-src/home/webapps/servlet-demo01.war`.
 
